@@ -8,7 +8,7 @@ import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfWriter;
 import java.util.*;
 public class Addressbook {
-	static HashMap<String,Persondetails> personMap=new HashMap<String,Persondetails>();
+	HashMap<String,Persondetails> personMap=new HashMap<String,Persondetails>();
 	Scanner sc=new Scanner(System.in);
 	String firstName;
 	String fileName;
